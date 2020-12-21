@@ -25,7 +25,7 @@ Post request on `localhost:3000/user/upload` to start/resume an upload
 
 Get request on `localhost:3000/user/cancel_upload` along with the file_id in the header of request to cancel an upload
 
-Get request on `localhost:3000/user/cancel_upload` along with the file_id in the header of request to know which byte to resume from (Used for pause/resume logic)
+Get request on `localhost:3000/user/curr_byte` along with the file_id in the header of request to know which byte to resume from (Used for pause/resume logic)
 
 ## Creating docker image of server
 Dockerfile is provided along with the server code in this repo. Users must follow the following steps to create the docker image
